@@ -1,12 +1,13 @@
+# Exported from Render on 2025-04-29T23:19:47Z
 services:
 - type: web
-  name: practicaesp32
+  name: PracticaEsp32
   runtime: python
-  repo: https://github.com/Ivan-Marin-00/PracticaEsp32.git
+  repo: https://github.com/Ivan-Marin-00/PracticaEsp32
   plan: free
   envVars:
   - key: MONGO_URI
-    value: mongodb+srv://ivanmarin0091:ivan001esp32@cluster0.kt4n8fq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    sync: false
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python app.py
