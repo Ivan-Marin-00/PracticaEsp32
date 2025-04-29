@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: pryMongoEsp32
+  name: PracticaESP
   runtime: python
   repo: https://github.com/Ivan-Marin-00/PracticaEsp32.git
   plan: free
